@@ -29,12 +29,12 @@ public class Main {
                 if (num2 != 0) {
                     result = num1 / num2;
                 } else {
-                    System.out.println("Error: division by zero");
+                    System.out.println("Error: division by zero !");
                     return;
                 }
                 break;
             default:
-                System.out.println("Error: invalid operation");
+                System.out.println("Error: invalid operation !");
                 return;
         }
 
