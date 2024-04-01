@@ -29,15 +29,16 @@ public class Main {
                 if (num2 != 0) {
                     result = num1 / num2;
                 } else {
-                    System.out.println("Грешка: деление на нула");
+                    System.out.println("Error: division by zero");
                     return;
                 }
                 break;
             default:
-                System.out.println("Грешка: невалидна операция");
+                System.out.println("Error: invalid operation");
                 return;
         }
 
         System.out.println("Резултатът е: " + result);
+        System.out.print( " ");
     }
 }
