@@ -39,7 +39,7 @@ public class Main {
         }
 
         System.out.println("Резултатът е: " + result);
-        System.out.println("new add ");
+      // Delete last line
     
     }
 }
