@@ -40,7 +40,8 @@ public class Main {
 
         System.out.println("Резултатът е: " + result);
         System.out.println("new add ");
-        System.out.println("12");
-    // add new Line 10.04.2024
+        System.out.println("1566+2");
+        
+    // add new Line 10.04.2024 16:07min
     }
 }
