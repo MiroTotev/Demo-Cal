@@ -40,7 +40,7 @@ public class Main {
 
         System.out.println("Резултатът е: " + result);
         System.out.println("new add ");
-        System.out.println("123!");
-    
+        System.out.println("12");
+    // add new Line 10.04.2024
     }
 }
