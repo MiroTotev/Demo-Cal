@@ -39,7 +39,8 @@ public class Main {
         }
 
         System.out.println("Резултатът е: " + result);
-        System.out.println("new add ");
+        System.out.println(" new line");
+        System.out.println("user's line");
     
     }
 }
