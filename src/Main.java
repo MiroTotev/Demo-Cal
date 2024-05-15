@@ -35,13 +35,13 @@ public class Main {
                 break;
             default:
                 System.out.println("Error: invalid operation ");
-                return result;
+                return;
         }
 
 
         System.out.println("Резултатът на операцията е : " + result);
         System.out.println( " New result ");
-        System.out.print();
+        System.out.print( " ");
     
     }
 }
