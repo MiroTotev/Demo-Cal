@@ -37,8 +37,9 @@ public class Main {
                 System.out.println("Error: invalid operation ");
                 return;
         }
+        System.out.print (" ");
 
-        System.out.println("Резултатът е: " + result);
+        System.out.println("Резултатът на операцията е : " + result);
      
     
     }
