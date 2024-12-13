@@ -38,8 +38,10 @@ public class Main {
                 return;
         }
 
-        System.out.println("Резултатът е: " + result);
-        System.out.println("new add ");
+
+        System.out.println("Резултатът на операцията е : " + result);
+        System.out.println( " New result ");
+        System.out.print( " ");
     
     }
 }
