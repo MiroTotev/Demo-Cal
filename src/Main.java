@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Въведете второто число:");
         num2 = scanner.nextDouble();
 
-        System.out.println("Изберете операция: +, -, *, или /");
+        System.out.println("Изберете операция: +, -, *, % или /");
         char operator = scanner.next().charAt(0);
 
         double result;
@@ -22,7 +22,7 @@ public class Main {
             case '-':
                 result = num1 - num2;
                 break;
-            case '*':
+            case '%':
                 result = num1 * num2;
                 break;
             case '/':
@@ -32,6 +32,9 @@ public class Main {
                     System.out.println("Error: division by zero ");
                     return;
                 }
+                break;
+            case '*':
+                result = num1 % num2;
                 break;
             default:
                 System.out.println("Error: invalid operation ");
