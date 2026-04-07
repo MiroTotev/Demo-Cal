@@ -22,7 +22,7 @@ public class Main {
             case '-':
                 result = num1 - num2;
                 break;
-            case '%':
+            case '*':
                 result = num1 * num2;
                 break;
             case '/':
@@ -33,7 +33,7 @@ public class Main {
                     return;
                 }
                 break;
-            case '*':
+            case '%':
                 result = num1 % num2;
                 break;
             default:
