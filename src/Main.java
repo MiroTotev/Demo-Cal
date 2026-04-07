@@ -5,7 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         double num1, num2;
-        System.out.println("Въведете първото число:");
+        System.out.println("Insert first number:");
         num1 = scanner.nextDouble();
         System.out.println("Въведете второто число:");
         num2 = scanner.nextDouble();
