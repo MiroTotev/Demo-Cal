@@ -6,6 +6,7 @@ public class Main {
 
         double num1, num2;
         System.out.println("Въведете първото число:");
+        num2 = scanner.nextDouble();
         num1 = scanner.nextDouble();
         System.out.println("Въведете второто число:");
         num2 = scanner.nextDouble();
